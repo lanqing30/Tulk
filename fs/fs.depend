@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1496917621 source:/home/zlq/Desktop/tulk/fs/global.c
+	"global.h"
+
+1496903001 /home/zlq/Desktop/tulk/fs/global.h
+	"include/string.h"
+	"include/debug.h"
+	"include/types.h"
+	<stdio.h>
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/string.h
+	"types.h"
+
+1496903092 /home/zlq/Desktop/tulk/fs/include/types.h
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/debug.h
+	"console.h"
+	"vargs.h"
+	"elf.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/console.h
+	"types.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/vargs.h
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/elf.h
+	"types.h"
+	"multiboot.h"
+	"env.h"
+	"vmm.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/multiboot.h
+	"types.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/env.h
+	"common.h"
+	"types.h"
+	"elf.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/common.h
+	"types.h"
+
+1496903116 /home/zlq/Desktop/tulk/fs/include/vmm.h
+	"common.h"
+	"types.h"
+	"vmm.h"
+	"pmm.h"
+	"env.h"
+	"idt.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/pmm.h
+	"multiboot.h"
+	"vmm.h"
+	"idt.h"
+
+1495154199 /home/zlq/Desktop/tulk/fs/include/idt.h
+	"types.h"
+	"vmm.h"
+
+1496915817 source:/home/zlq/Desktop/tulk/fs/fs.c
+	"fs.h"
+
+1496908723 /home/zlq/Desktop/tulk/fs/fs.h
+	"global.h"
+
